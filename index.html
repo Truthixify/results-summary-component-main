@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="main.css">
+  
+  <title>Frontend Mentor | Results summary component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="result">
+      <p class="result--header">Your Result</p>
+      <div class="result--score score">
+        <h1 class="score--actual">76</h1>
+        <p class="score--total">of 100</p>
+      </div>
+      <h3 class="result-interpretation">Great</h3>
+      <div class="result--summary">You scored higher than 65% of the people who have taken these tests.</div>
+    </div>
+    <div class="summary">
+      <p class="summary--header">Summary</p>
+      <div class="summary--holder">
+        <div class="test test-reaction">
+          <div class="test--left">
+            <img src="./assets/images/icon-reaction.svg" alt="">
+            <p>Reaction</p>
+          </div>
+          <div class="test--right">
+            <b>80</b> / 100
+          </div>
+        </div>
+        <div class="test test-memory">
+          <div class="test--left">
+            <img src="./assets/images/icon-memory.svg" alt="">
+            <p>Memory</p>
+          </div>
+          <div class="test--right">
+            <b>92</b> / 100
+          </div>
+        </div>
+        <div class="test test-verbal">
+          <div class="test--left">
+            <img src="./assets/images/icon-verbal.svg" alt="">
+            <p>Verbal</p>
+          </div>
+          <div class="test--right">
+            <b>61</b> / 100
+          </div>
+        </div>
+        <div class="test test-visual">
+          <div class="test--left">
+            <img src="./assets/images/icon-visual.svg" alt="">
+            <p>Visual</p>
+          </div>
+          <div class="test--right">
+            <b>72</b> / 100
+          </div>
+        </div>
+      </div>
+      <button class="summary--button">Continue</button>
+    </div>
+  </div>
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+</body>
+</html>
